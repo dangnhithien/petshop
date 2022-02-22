@@ -1,0 +1,74 @@
+.main {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    .sidebar {
+        display: block;
+        width: 310px;
+        padding: 0 30px 0 50px;
+        box-shadow: 0 2px 2px rgb(0 0 0 / 10%), 0 4px 4px rgb(0 0 0 / 10%),
+            0 8px 8px rgb(0 0 0 / 10%), 0 16px 16px rgb(0 0 0 / 10%);
+
+        h3 {
+            text-transform: uppercase;
+            white-space: nowrap;
+            padding: 10px 0;
+            border-bottom: 0.5px solid rgba(158, 153, 153, 0.644);
+        }
+        .nav-links {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            padding: 5px 0;
+            li {
+                list-style: none;
+                display: block;
+
+                a {
+                    text-transform: uppercase;
+                    background-color: #efeded;
+                    width: 200px;
+                    padding: 10px;
+                    font-size: 12px;
+                    font-weight: 400;
+                }
+                a:hover {
+                    color: rgb(255, 81, 0);
+                }
+            }
+            .dorpdown {
+                padding: 10px 0;
+                border-bottom: 0.5px solid rgba(158, 153, 153, 0.644);
+                display: flex;
+                flex-wrap: wrap;
+                align-items: center;
+                a {
+                    display: block;
+                    color: black;
+                }
+                i {
+                    display: inline;
+                    margin-left: auto;
+                    margin-right: 10px;
+                }
+                &:hover .drop-content {
+                    display: block;
+                    width: 100%;
+                }
+                .drop-content {
+                    display: none;
+                    margin-top: 5px;
+                    border-left: 1px solid rgba(158, 153, 153, 0.644);
+                    li {
+                        padding: 5px;
+                        margin-top: 5px;
+                    }
+                }
+            }
+        }
+    }
+    .main-right {
+        max-width: 75%;
+    }
+}

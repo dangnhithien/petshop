@@ -1,0 +1,45 @@
+.paypal-button-tagline {
+    display: none !important;
+}
+.my-custom-scrollbar::-webkit-scrollbar {
+}
+.my-custom-scrollbar {
+    position: relative;
+    height: 85vh;
+    overflow: auto;
+}
+.table-wrapper-scroll-y {
+    display: block;
+}
+.dimension {
+    width: 500px;
+    height: 300px;
+}
+
+.nav-tabs .nav-link.active {
+    background-color: #0088a9;
+    color: rgb(255, 255, 255);
+    border: 1px solid #c5c5c5;
+}
+
+.nav-tabs .nav-link {
+    background-color: #fff;
+    color: #000000;
+    border: 1px solid #c5c5c5;
+    margin-right: 5px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.nav-tabs .nav-link:hover {
+    border: 1px solid #c5c5c5;
+}
+
+.nav-tabs {
+    border-bottom: 1px solid #c5c5c5;
+}
+
+.tab-content {
+    border: none;
+    padding: 5px 0;
+}

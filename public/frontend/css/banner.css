@@ -1,0 +1,54 @@
+.banner {
+    margin-bottom: 50px;
+    padding: 30px 0;
+    padding-right: 10px;
+    align-items: center;
+}
+.banner-row {
+    display: flex;
+    justify-content: center;
+}
+.banner-row .img-item {
+    width: calc(33% - 10px);
+    margin-left: 10px;
+}
+.banner-row .img-item img {
+    max-width: 100%;
+    object-fit: cover;
+}
+.banner-row .card-item {
+    width: calc(33% - 10px);
+    margin-left: 10px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #ccc;
+    margin-top: 20px;
+    background-color: aliceblue;
+}
+.banner-row .card-item img {
+    max-width: 50px;
+    object-fit: contain;
+    vertical-align: middle;
+}
+.banner-row .card-item span {
+    display: block;
+    font-size: 24px;
+    font-weight: 700;
+    color: #f56073;
+    padding: 20px 0;
+}
+.banner-row .card-item p {
+    font-size: 20px;
+}
+.banner .section-content {
+    margin-top: 50px;
+    text-align: center;
+}
+.banner .section-content h2 {
+    color: #f56073;
+    font-size: 28px;
+    padding: 10px 0;
+}
+
+/*# sourceMappingURL=banner.css.map */

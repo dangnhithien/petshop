@@ -1,0 +1,60 @@
+.navbars {
+  width: 100%;
+  padding: 0 100px;
+  display: flex;
+  background-color: #0088a9;
+  max-height: 50px;
+}
+.navbars .nav-links {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.navbars .nav-links li {
+  display: inline-block;
+  text-transform: uppercase;
+  position: relative;
+  margin: 0 20px;
+}
+.navbars .nav-links li .menu-item {
+  display: block;
+  padding: 15px 20px;
+  font-size: 16px;
+  font-weight: 700;
+  transition: all 0.3s ease 0s;
+  color: white;
+  white-space: nowrap;
+}
+.navbars .nav-links li .menu-item:hover {
+  color: #ff7300;
+}
+.navbars .nav-links li:hover .sub-menu {
+  display: flex;
+  transition: all 0.3 ease-in;
+}
+.navbars .search {
+  width: 250px;
+  max-height: 40px !important;
+  background-color: white;
+  border: 1px solid #0088a9;
+  border-radius: 5px;
+  padding: 5px 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-top: 5px;
+}
+.navbars .search input {
+  border-radius: 5px;
+  height: 100%;
+  width: 200px;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  border: none;
+  outline: none;
+}
+
+/*# sourceMappingURL=menu.css.map */

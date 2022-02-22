@@ -1,0 +1,22 @@
+footer {
+    background-color: #5b5b5b;
+    color: #adadad;
+    min-height: 100px;
+    padding: 10px 50px;
+}
+footer .footer .nav-links {
+    border-bottom: 1px solid white;
+}
+footer .footer .nav-links li {
+    display: inline-block;
+    padding: 10px 0;
+    margin-right: 5px;
+}
+footer .footer .nav-links a {
+    color: #adadad;
+}
+footer .footer p {
+    margin-top: 10px;
+}
+
+/*# sourceMappingURL=footer.css.map */
